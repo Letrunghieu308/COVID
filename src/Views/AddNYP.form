@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Views.AddNYP">
+  <grid id="27dc6" binding="addNYP" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1296" height="637"/>
+    </constraints>
+    <properties>
+      <background color="-15935"/>
+      <font name="UVN Giong Song" size="20"/>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="870af" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="2" row-span="5" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="1100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3851"/>
+          <font name="UVN Giong Song" size="20"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f6325" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="UVN Giong Song" size="72"/>
+              <foreground color="-3315575"/>
+              <text value="Thêm gói nhu yếu phẩm"/>
+            </properties>
+          </component>
+          <component id="92358" class="javax.swing.JTextField" binding="ngayGioiHan">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="UVN Giong Song" size="28"/>
+              <foreground color="-3315575"/>
+            </properties>
+          </component>
+          <component id="386d7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="UVN Giong Song" size="28"/>
+              <foreground color="-3315575"/>
+              <text value="Tên gói:"/>
+            </properties>
+          </component>
+          <component id="9d54a" class="javax.swing.JTextField" binding="tenGoi">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="UVN Giong Song" size="28"/>
+              <foreground color="-3315575"/>
+            </properties>
+          </component>
+          <component id="880aa" class="javax.swing.JTextField" binding="gioihanMua">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="UVN Giong Song" size="28"/>
+              <foreground color="-3315575"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="498a9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="UVN Giong Song" size="28"/>
+              <foreground color="-3315575"/>
+              <text value="Giới hạn mua:"/>
+            </properties>
+          </component>
+          <component id="a378e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="UVN Giong Song" size="28"/>
+              <foreground color="-3315575"/>
+              <text value="Ngày giới hạn:"/>
+            </properties>
+          </component>
+          <vspacer id="ceb5">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="400"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <hspacer id="5483a">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="5" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="c1097">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="5" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <vspacer id="2f5c4">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="40da1">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="60"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <component id="dba23" class="javax.swing.JButton" binding="AddGoi" custom-create="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6943"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="false"/>
+          <font name="UVN Giong Song" size="20"/>
+          <foreground color="-16777216"/>
+          <text value="Thêm gói "/>
+        </properties>
+      </component>
+      <component id="b34ea" class="javax.swing.JButton" binding="thêmSảnPhẩmButton" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6943"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="false"/>
+          <font name="UVN Giong Song" size="20"/>
+          <foreground color="-16777216"/>
+          <text value="Thêm sản phẩm"/>
+        </properties>
+      </component>
+      <component id="25743" class="javax.swing.JButton" binding="quayLạiButton" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6943"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="false"/>
+          <font name="UVN Giong Song" size="20"/>
+          <foreground color="-16777216"/>
+          <text value="Quay lại"/>
+        </properties>
+      </component>
+      <vspacer id="49013">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="500"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="f8458">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="10" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="f9646">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
